@@ -1,0 +1,37 @@
+{
+    "pages": [
+        "pages/home/index",
+        "pages/product/product-index-page/index",
+        "pages/product/product-list-page/index",
+        "pages/product/product-detail-page/index"
+    ],
+    "window": {
+        "navigationBarTitleText": "华海家装",
+        "navigationBarBackgroundColor": "#FFFFFF",
+        "navigationBarTextStyle": "black",
+        "onReachBottomDistance":50,
+        "backgroundTextStyle": "white",
+        "backgroundColor": "#F5F5F5"
+    },
+    "debug": false,
+    "tabBar": {
+        "color": "#656565",
+        "selectedColor": "#FF9428",
+        "borderStyle": "black",
+        "backgroundColor": "#F7F7FA",
+        "list": [
+            {
+                "text": "首页",
+                "pagePath":  "pages/home/index",
+                "iconPath": "assets/tabbar/home.png",
+                "selectedIconPath": "assets/tabbar/home-selected.png"
+            },
+            {
+                "text": "商城",
+                "pagePath":  "pages/product/product-index-page/index",
+                "iconPath": "assets/tabbar/mall.png",
+                "selectedIconPath": "assets/tabbar/mall-selected.png"
+            }
+        ]
+    }
+}

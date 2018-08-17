@@ -1,0 +1,74 @@
+{
+    "name": "UI配置文件",
+    "clean": [
+        "dist"
+    ],
+    "copy": [
+        {
+            "srcRoot": "src",
+            "distRoot": "dist",
+            "src": [
+                "src/assets/**/*"
+            ],
+            "dist": "dist",
+            "base": "src"
+        }
+    ],
+    "sass": [
+        {
+            "srcRoot": "src",
+            "distRoot": "dist",
+            "src": [
+                "./src/styles/**/*.scss",
+                "./src/pages/**/*.scss",
+                "./src/app.scss"
+            ],
+            "dist": "./dist",
+            "base": "src"
+        }
+    ],
+    "html": [
+        {
+            "srcRoot": "src",
+            "distRoot": "dist",
+            "src": [
+                "src/**/*.html"
+            ],
+            "dist": "dist",
+            "base": "src"
+        },
+        {
+            "srcRoot": "src",
+            "distRoot": "dist",
+            "src": [
+                "src/**/*.wxml"
+            ],
+            "dist": "dist",
+            "base": "src"
+        }
+    ],
+    "json": [
+        {
+            "srcRoot": "src",
+            "distRoot": "dist",
+            "src": [
+                "src/**/**.json"
+            ],
+            "dist": "dist",
+            "base": "src",
+            "suffix": ".json"
+        }
+    ],
+    "ts": [
+        {
+            "srcRoot": "src",
+            "distRoot": "dist",
+            "src": "src/**/*.ts",
+            "dist": "dist"
+        }
+    ],
+    "server": {
+        "root": "./server",
+        "port": 2018
+    }
+}

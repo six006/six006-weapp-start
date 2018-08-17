@@ -1,0 +1,23 @@
+{
+  "name": "six006-weapp-start",
+  "version": "1.0.0",
+  "description": "微信小程序UI开发模板",
+  "main": "index.js",
+  "scripts": {
+    "start": "six006 build",
+    "build": "six006 build",
+    "watch": "six006 build --w",
+    "update": "ncu -a && npm install",
+    "server": "six006 server",
+    "server:stop": "six006 server --stop",
+    "server:reload": "six006 server --reload"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@six006/cli": "0.0.27",
+    "@six006/wx": "0.0.27",
+    "npm-check-updates": "^2.14.2"
+  }
+}
