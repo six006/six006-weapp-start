@@ -89,15 +89,18 @@ npm start
 <image src="http://localhost:2018/images/case/1.jpg" />
 ```
 
+- 启动命令
 ```
 npm run server
 ```
 
-## 5.打开微信小程序开发工具
+## 5.预览效果
 
+- 打开微信小程序开发工具
 - 修改`src`目录下`project.config.json`中`appid`改成您实际拥有的appid值
 - 将微信小程序项目目录设置成`dist`
 - 若项目重新编译，微信小程序开发工具需要重新打开
+- 注意我们的所有代码无论是scss,html,ts,json都是在`src`目录下进行开发，不要去修改`dist`目录下任何内容。
 
 
 ## 6.常见问题

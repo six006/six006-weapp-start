@@ -6,7 +6,7 @@
         "pages/product/product-detail-page/index"
     ],
     "window": {
-        "navigationBarTitleText": "华海家装",
+        "navigationBarTitleText": "微信小程序UI开发模板",
         "navigationBarBackgroundColor": "#FFFFFF",
         "navigationBarTextStyle": "black",
         "onReachBottomDistance":50,
