@@ -2,6 +2,7 @@
     "compileOnSave": false,
     "compilerOptions": {
         "experimentalDecorators": true,
+        "importHelpers": true,
         "typeRoots": [
             "node_modules/@six006",
             "node_modules/@types"

@@ -1,5 +1,6 @@
 {
 	"description": "微信小程序UI开发模板",
+	"client": "dist/",
 	"packOptions": {
 		"ignore": []
 	},
@@ -12,8 +13,8 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.2.1",
-	"appid": "请换成实际appid",
-	"projectname": "decorator-ui",
+	"appid": "wx28b3460921a02d28",
+	"projectname": "six006-weapp-start",
 	"isGameTourist": false,
 	"condition": {
 		"search": {

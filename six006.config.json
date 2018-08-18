@@ -63,6 +63,7 @@
         {
             "srcRoot": "src",
             "distRoot": "dist",
+            "sourceMap": true,
             "src": "src/**/*.ts",
             "dist": "dist"
         }

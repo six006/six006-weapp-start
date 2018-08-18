@@ -17,11 +17,11 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@six006/core": "0.0.29"
+    "@six006/core": "0.0.34"
   },
   "devDependencies": {
-    "@six006/cli": "0.0.29",
-    "@six006/wx": "0.0.29",
+    "@six006/cli": "0.0.34",
+    "@six006/wx": "0.0.34",
     "npm-check-updates": "^2.14.2"
   }
 }

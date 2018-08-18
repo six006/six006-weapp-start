@@ -9,13 +9,13 @@ const defaultData: PageData = {
 }
 
 @Pageify()
-export default class extends BasePage<PageData, any>{
+export default class T extends BasePage<PageData, any>{
 
     constructor() {
-        super();
+        super(defaultData);
     }
 
-    data = {
-        name: '杨剑峰'
+    onLoad(){
+        console.log(this.data);
     }
 }
