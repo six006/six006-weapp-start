@@ -4,6 +4,7 @@
   "description": "微信小程序UI开发模板",
   "main": "index.js",
   "scripts": {
+    "ts": "six006 ts",
     "start": "six006 build",
     "build": "six006 build",
     "watch": "six006 build --w",
@@ -15,9 +16,12 @@
   "keywords": [],
   "author": "",
   "license": "MIT",
+  "dependencies": {
+    "@six006/core": "0.0.29"
+  },
   "devDependencies": {
-    "@six006/cli": "0.0.27",
-    "@six006/wx": "0.0.27",
+    "@six006/cli": "0.0.29",
+    "@six006/wx": "0.0.29",
     "npm-check-updates": "^2.14.2"
   }
 }

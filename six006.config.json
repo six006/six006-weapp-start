@@ -67,6 +67,11 @@
             "dist": "dist"
         }
     ],
+    "libs": {
+        "tslib": "./dist/libs/tslib",
+        "lodash": "./dist/libs/lodash",
+        "@six006/core": "./dist/libs/@six006/core"
+    },
     "server": {
         "root": "./server",
         "port": 2018
